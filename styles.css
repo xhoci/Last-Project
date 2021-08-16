@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.intro-container {
+    position: relative;
+    height: 100vh;
+}
+
+.intro-container .bg-image{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.intro-container .header  {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-container .header .logo{
+    display: flex;
+    align-items: center;
+}
+
+.intro-container .header .logo img{
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-right: 20px;
+}
+.card {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card h1 {
+    color: white;
+}
+.card h2 {
+    color: gray;
+}
+.buttons .first-button {
+    padding: 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 60px;
+    background-color: blue;
+    color: white;
+}
+.buttons .second-button {
+    padding: 10px;
+    margin-right: 30px;
+    margin: 20px;
+    color: white;
+    border-color: white;
+    border-radius: 60px;
+    background: transparent;
+    width: 150px;
+}
+.card-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info-single {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-img {
+    display: flex;
+    flex-direction: column;
+}
+.card-info-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-info-single-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.second-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-img-2 {
+    display: flex;
+    flex-direction: column;
+}
+.section {
+    width: 1280px;
+    margin: 0 auto;
+}
+.section img {
+    width: 150px;
+    padding: 20px;
+}
+
+.second-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+}
+.recent-works-gallery {
+    display: flex;
+}
+.recent-works-gallery img {
+    width: 20%;
+    height: 300px;
+    object-fit: cover;
+}
+.portofolio {
+    background-color: darkslategrey;
+    font-size: 20px;
+}
+.info-portofolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portofolio-button {
+    padding: 10px;
+    margin-right: 30px;
+    margin: 20px;
+    color: white;
+    border-color: white;
+    border-radius: 60px;
+    background: transparent;
+    width: 150px;
+}
+.main-container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.first-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin: 50px;
+}
+.girl-img img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.paragraph p {
+    margin-left: 100px;
+}
+.buttons .third-button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 60px;
+    background-color: blue;
+    color: white;
+    width: 130px;
+}
+.buttons .fourth-button {
+    padding: 10px;
+    margin-right: 30px;
+    margin: 20px;
+    color: gray;
+    border-color: gray;
+    border-radius: 60px;
+    background: transparent;
+    width: 150px;
+}
+.lines-code {
+    background-color: gray;
+}
+.lines-code-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+.lines-code-card strong {
+    display: flex;
+    justify-content: center;
+}
+.second-card {
+    background-color: rgb(218, 218, 218)
+}
+.design-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.design-info-kitra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.kitra-img {
+    width: 50px;
+    border-radius: 30px;
+}
+.angelina a {
+    color: blue;
+}
+.arrows-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin: 20px;
+}
+.arrow-1 {
+    margin: 5px;
+}
+.arrow-2 {
+    margin: 5px;
+}
+.imagesinrow {
+    display: flex;
+    justify-content: center;
+}
+.imagesinrow img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 50px;
+}
+.powerfull-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1280px;
+    margin: 0 auto;
+}
+.powerfull-img {
+    margin-top: 20px;
+}
+.footer {
+    max-width: 100%;
+    display: flex;
+    background-color: gray;
+}
+.first-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    width: 65%; 
+    overflow: auto;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 20px;
+    margin: 40px;
+}
+.first-box-paragraph{
+    display: flex;
+}
+.first-box-paragraph img {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+}
+
+.navigation2 {
+    display: flex;
+    margin-left: 22px;
+}   
+.navigation2 img {
+    width: 40px;
+}
+.footer-paragraph  {
+    width: 200px;
+}
+.twitter-widget {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.twitter-logo {
+    display: flex;
+}
+.twitter-logo p {
+    width: 200px;
+}
+.twitter-logo img  {
+    width: 40px;
+    height: 40px;
+}
+.second-twitter-logo {
+    display: flex;
+}
+.second-twitter-logo img {
+    width: 40px;
+    height: 40px;
+}
+.second-twitter-logo p {
+    width: 200px;
+}
+.flicker-feed {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.flicker-img {
+    display: flex;
+    margin: 20px;
+}
+.flicker-img-2 {
+    display: flex;
+    margin: 20px;
+}
+.flicker-img img {
+    display: flex;
+    width: 60px;
+}
+.flicker-img-2 img {
+    display: flex;
+    width: 60px;
+}
+.recent-posts {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.last-images {
+    width: 20px;
+}
+.last-footer {
+    background-color: rgb(77, 75, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
